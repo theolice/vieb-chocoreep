@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vieb</id>
+    <version>5.0.0</version>
+    <owners>theolice</owners>
+    <title>vieb (Install)</title>
+    <authors>Jelmer van Arnhem</authors>
+    <projectUrl>https://vieb.dev/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Jelmerro/Vieb/master/app/img/icons/128x128.png</iconUrl>
+    <copyright>Copyright (C) 2019-2021 Jelmer van Arnhem</copyright>
+    <licenseUrl>https://github.com/Jelmerro/Vieb/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Jelmerro/Vieb/</projectSourceUrl>
+    <tags>vieb electron javascript vim browser network chromium</tags>
+    <summary>Vieb is the Vim Inspired Electron Browser</summary>
+    <description>Vieb is the Vim Inspired Electron Browser</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
