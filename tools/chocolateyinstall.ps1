@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/Jelmerro/Vieb/releases/download/5.0.0/Vieb.Setup.5.0.0.exe'
-$url64      = 'https://github.com/Jelmerro/Vieb/releases/download/5.0.0/Vieb.Setup.5.0.0.exe'
+$url        = 'https://github.com/Jelmerro/Vieb/releases/download/5.1.0/Vieb.Setup.5.1.0.exe'
+$url64      = 'https://github.com/Jelmerro/Vieb/releases/download/5.1.0/Vieb.Setup.5.1.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
