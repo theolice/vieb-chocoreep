@@ -12,9 +12,9 @@ $packageArgs = @{
 
   softwareName  = 'vieb*'
 
-  checksum      = '7c16d63ef53560a232a1c6176f9cdd944de85d88060db0914c83150eb5555824'
+  checksum      = 'DED2753521EE65BC05CBE30385AEB795009AF1B4C8B54364DD2DCFC1F7E17DE5'
   checksumType  = 'sha256'
-  checksum64    = '7c16d63ef53560a232a1c6176f9cdd944de85d88060db0914c83150eb5555824'
+  checksum64    = 'DED2753521EE65BC05CBE30385AEB795009AF1B4C8B54364DD2DCFC1F7E17DE5'
   checksumType64= 'sha256'
 
   silentArgs    = "/S"
