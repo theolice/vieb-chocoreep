@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vieb</id>
-    <version>5.1.0</version>
+    <version>5.2.0</version>
     <packageSourceUrl>https://github.com/theolice/vieb-chocoreep</packageSourceUrl>
     <owners>theolice</owners>
     <title>vieb (Install)</title>
