@@ -1,7 +1,7 @@
 #!/bin/bash
 # download latest setup
 setup_url=`curl https://api.github.com/repos/Jelmerro/Vieb/releases/latest | grep "browser_download_url" | grep "Setup" | grep ".exe"`
-setup_url=`echo $setup_url | cut -d ":" -f "2,3" | tr -d '"' | tr -d ' '`
+setup_url=`echo $setup_url | cut -d ":" -f "2,3" | tr -d '"' | tr -d ',' | tr -d ' '`
 echo $setup_url
 wget $setup_url -O vieb.exe
 # calculate checksum and delete
@@ -19,3 +19,5 @@ sed -i "s,https://github.com.*,${setup_url}',g" ./tools/chocolateyinstall.ps1
 sed -i "s,checksum      = '.*,checksum      = '$checksum',g" ./tools/chocolateyinstall.ps1
 # replace version in nuspec file
 sed -i "s,<version>.*</version>,<version>$version</version>,g" ./vieb.nuspec
+# commit the release, but don't push yet
+git commit -am "v$version"
