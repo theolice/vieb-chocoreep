@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/Jelmerro/Vieb/releases/download/10.1.0/Vieb.Setup.10.1.0.exe'
+$url        = 'https://github.com/Jelmerro/Vieb/releases/download/10.3.0/Vieb.Setup.10.3.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'vieb*'
 
-  checksum      = '32D6B35EF299D4FCF5E5F6A0E6580812C3664F0510AC85EB50D5C726559361F1'
+  checksum      = 'C39254C00CD433697ECB21C6EDE2784704D845193301193EE078C57158BDDADB'
   checksumType  = 'sha256'
 
   silentArgs    = "/S"
